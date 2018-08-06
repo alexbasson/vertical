@@ -1,0 +1,11 @@
+rootProject.name = 'vertical'
+
+include 'application'
+
+include ':users:api'
+include ':users:domain'
+include ':users:persistence'
+
+include ':products:api'
+include ':products:domain'
+include ':products:persistence'
